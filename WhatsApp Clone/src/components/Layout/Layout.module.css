@@ -1,0 +1,14 @@
+.Layout {
+    background-color:#E0D8D1;
+    width: 96%;
+    height: 42rem;
+    margin-left: 20px;
+    margin-top: -80px;
+    display: flex;
+}
+.Mainbar{
+    flex: 0.30;
+}
+.Sidebar{
+    flex: 0.70;
+}

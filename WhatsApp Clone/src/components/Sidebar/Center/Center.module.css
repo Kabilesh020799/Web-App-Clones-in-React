@@ -1,0 +1,33 @@
+.Input{
+    width: 67%;
+    height: 3rem;
+    background-color: white;
+    border-radius: 20px;
+    position: absolute;
+    bottom: 20px;
+    display: flex;
+}
+.Input__text{
+    flex: 1;
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    font-size: 25px;
+    text-align: left;
+    margin-left: 20px;
+}
+.Input__icon{
+    flex: 0;
+    margin-top: 10px;
+}
+
+.Input__text:focus,
+.Input__text:active{
+    border: 0 !important;
+    outline: none;
+    box-shadow: none;
+}
+
+.send{
+    color: rgb(0, 150, 136)
+}

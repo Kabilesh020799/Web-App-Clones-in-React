@@ -1,0 +1,44 @@
+.Mainbar {
+    background-color: #ffffff;
+    border-right: 1px solid lightgrey;
+    height: 100%;
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+}
+.header {
+    background-color: #EDEDED;
+    width: 100%;
+    height: 10%;
+    font-size: 30px;
+}
+
+.Input {
+    background-color: #ffffff;
+    width: 80%;
+    height: 1.5rem;
+    border-radius: 2.5em;
+    border: 1px solid lightgrey;
+    margin-left: 2rem;
+    margin-top: 10px;
+    text-align: center;
+    outline: none;
+}
+.InputWrapper {
+    background-color: #f6f6f6;
+    width: 100%;
+    height: 3rem;
+    display: flex;
+}
+
+.Input:focus,
+.Input:active{
+    background-color: #ffffff ;
+    border: none;
+    outline: none;
+}
+
+.body{
+    height: 83%;
+    overflow-y: scroll;
+}
